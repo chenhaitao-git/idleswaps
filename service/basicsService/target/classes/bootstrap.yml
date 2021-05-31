@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: basicService
+    cloud:
+        config:
+            uri: http://localhost:6002/
+            profile: basic

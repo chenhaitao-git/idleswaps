@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/basicmodel/basicmodel.iml" filepath="$PROJECT_DIR$/common/basicmodel/basicmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/basicsService/basicsService.iml" filepath="$PROJECT_DIR$/service/basicsService/basicsService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/config/config.iml" filepath="$PROJECT_DIR$/system/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/eureka/eureka.iml" filepath="$PROJECT_DIR$/system/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idleswaps.iml" filepath="$PROJECT_DIR$/idleswaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/orderService/orderService.iml" filepath="$PROJECT_DIR$/service/orderService/orderService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/parentproject/parentproject.iml" filepath="$PROJECT_DIR$/system/parentproject/parentproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/system/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/testService1/testService1.iml" filepath="$PROJECT_DIR$/service/testService1/testService1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/testService2/testService2.iml" filepath="$PROJECT_DIR$/service/testService2/testService2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/testService3/testService3.iml" filepath="$PROJECT_DIR$/service/testService3/testService3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/testmodel/testmodel.iml" filepath="$PROJECT_DIR$/common/testmodel/testmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/zuul/zuul.iml" filepath="$PROJECT_DIR$/system/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

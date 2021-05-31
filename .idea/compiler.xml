@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="basicmodel" />
+        <module name="basicsService" />
+        <module name="config" />
+        <module name="eureka" />
+        <module name="idleswaps" />
+        <module name="orderService" />
+        <module name="ribbon" />
+        <module name="testmodel" />
+        <module name="testService1" />
+        <module name="testService2" />
+        <module name="testService3" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basicmodel" target="1.8" />
+      <module name="basicsService" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="idleswaps" target="1.5" />
+      <module name="orderService" target="1.8" />
+      <module name="parentproject" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="testmodel" target="1.8" />
+      <module name="testmodel (1)" target="1.8" />
+      <module name="testService1" target="1.8" />
+      <module name="testService2" target="1.8" />
+      <module name="testService3" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
