@@ -19,6 +19,7 @@
         <module>../ribbon</module>
         <module>../../common/testmodel</module>
         <module>../../service/testService3</module>
+        <module>../../common/basicmodel</module>
     </modules>
 
     <parent>

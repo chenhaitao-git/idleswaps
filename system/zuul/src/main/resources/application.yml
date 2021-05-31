@@ -10,24 +10,28 @@ eureka:
         service-url:
             defaultZone : http://localhost:5000/eureka/
 
-zuul:
-    routes:
-        sbService :
-            path : /sbService/**
-            serviceId : springbootService
+#zuul:
+#    routes:
+#        sbService :
+#            path : /sbService/**
+#            serviceId : springbootService
 #            path : /sbService/**
 #            serviceId : springbootService
 #
 #
-#zuul:
+zuul:
 #  sensitiveHeaders: "abcd-test"
-#  routes:
-#    romp:
-#      path: /testA/**
-#      serviceId: test-cloud-a
+  routes:
+    romp:
+      path: /sbService/**
+      serviceId: springbootService
 #      sensitiveHeaders: "abcd-test"
 #多个的时候，就直接配置多个，切记缩进
-#    rompSchedule:
-#      path: /testB/**
-#      serviceId: test-cloud-b
-#      sensitiveHeaders: "abcd-test"
+    basic_api:
+      path: /basic_api/**
+      serviceId: basicService
+
+    test_api:
+      path: /test_api/**
+      serviceId: springbootService3
+#     sensitiveHeaders: "abcd-test"
