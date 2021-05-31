@@ -1,0 +1,12 @@
+com\bean\ServiceInfo.class
+com\service\IdleswapServcie.class
+com\util\CommUtils.class
+com\util\JsonMapper.class
+com\controller\ServiceController.class
+com\bean\RestfulResult.class
+com\util\JsonMapper$2.class
+com\util\JsonUtils.class
+com\util\JsonMapper$1.class
+com\ServiceApplication.class
+com\bean\Studennt.class
+com\bean\test.class
